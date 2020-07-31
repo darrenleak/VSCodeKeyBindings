@@ -1,0 +1,94 @@
+[
+    { 
+      "key": "ctrl+shift+j",
+      "command": "cursorLeft",
+      "when": "textInputFocus" 
+    },
+    { 
+      "key": "ctrl+shift+k",
+      "command": "cursorUp",
+      "when": "textInputFocus" 
+    },
+    { 
+      "key": "ctrl+shift+l",
+      "command": "cursorDown",
+      "when": "textInputFocus" 
+    },
+    { 
+      "key": "ctrl+shift+;",
+      "command": "cursorRight",
+      "when": "textInputFocus" 
+    },
+    { 
+      "key": "ctrl+shift+alt+j",
+      "command": "cursorLeftSelect",
+      "when": "textInputFocus" 
+    },
+    { 
+      "key": "ctrl+shift+alt+;",
+      "command": "cursorRightSelect",
+      "when": "textInputFocus" 
+    },
+    { 
+      "key": "ctrl+shift+alt+k",
+      "command": "cursorUpSelect",
+      "when": "textInputFocus" 
+    },
+    { 
+      "key": "ctrl+shift+alt+l",
+      "command": "cursorDownSelect",
+      "when": "textInputFocus" 
+    }, 
+    { 
+      "key": "shift+ctrl+alt+o",
+      "command": "cursorWordPartRightSelect",
+      "when": "textInputFocus"
+    },
+    { 
+      "key": "shift+ctrl+alt+i",
+      "command": "cursorWordPartLeftSelect",
+      "when": "textInputFocus"
+    },
+    { "key": "ctrl+shift+o",
+      "command": "cursorWordEndRight",
+      "when": "textInputFocus" 
+    },
+    { "key": "ctrl+shift+i",
+      "command": "cursorWordEndLeft",
+      "when": "textInputFocus" 
+    },
+    { 
+      "key": "shift+ctrl+p",
+      "command": "cursorEnd",
+      "when": "textInputFocus",
+      "args": {"sticky":false} 
+    },
+    { 
+      "key": "shift+ctrl+u",
+      "command": "cursorHome",
+      "when": "textInputFocus",
+      "args": {"sticky":false} 
+    },
+    { 
+      "key": "shift+ctrl+alt+p",
+      "command": "cursorEndSelect",
+      "when": "textInputFocus",
+      "args": {"sticky":false} 
+    },
+    { 
+      "key": "shift+ctrl+alt+u",
+      "command": "cursorHomeSelect",
+      "when": "textInputFocus",
+      "args": {"sticky":false} 
+    },
+    { 
+      "key": "shift+ctrl+n",
+      "command": "cursorTop",
+      "when": "textInputFocus" 
+    },
+    { 
+      "key": "shift+ctrl+m",
+      "command": "cursorBottom",
+      "when": "textInputFocus" 
+    },
+  ]
